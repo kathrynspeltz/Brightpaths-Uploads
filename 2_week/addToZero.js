@@ -9,18 +9,30 @@
 // [0, 1, 2, 3, 4, 5] should log false because no two numbers add to 0.
 
 // Starting array
-let array = [1, 4, 11, 2, 37, -4];
+// let array = [1, 4, 11, 2, 37, -4];
+// let numcompare = 0;
+// let answer = false;
+
+// for (let i = 0; i <= array.length - 1; i++) {
+//     numcompare = array[i]
+//     position = i
+//     for (let i = 0; i <= array.length - 1; i++) {
+//         if (numcompare + array[i] === 0 && position != i) {
+//             answer = true
+//         }
+//     }
+// }
+// console.log(answer)
+
+let array = [0, 1, 2, 3, 4, 5];
 let numcompare = 0;
 let answer = false;
 
 for (let i = 0; i <= array.length - 1; i++) {
-    numcompare = array[i]
-    position = i
-    for (let i = 0; i <= array.length - 1; i++) {
-        if (numcompare + array[i] === 0 && position != i) {
+    for (let j = 0; j <= array.length - 1; j++) {
+        if (array[j] + array[i] === 0 && j != i) {
             answer = true
         }
     }
 }
 console.log(answer)
-
