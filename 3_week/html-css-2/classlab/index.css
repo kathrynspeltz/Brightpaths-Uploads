@@ -1,0 +1,12 @@
+.backImage {
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Euclid_outsidetowerh_IMG_2487_desktop_a75e89406d.jpg);
+    height: auto;
+}
+
+.NavBar {
+    list-style-type: none;
+    display: inline;
+    float: left;
+    flex-direction: row;
+    justify-content: space-evenly
+}

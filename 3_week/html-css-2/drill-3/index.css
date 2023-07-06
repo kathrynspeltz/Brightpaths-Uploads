@@ -1,0 +1,50 @@
+* {
+    border: 0px;
+    margin: 0px;
+}
+
+h1 {
+    box-sizing: content-box;
+    width: auto;
+    height: 50px;
+    background-color: darkgrey;
+}
+
+#bluesquare {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+.firstParagraph {
+    margin: 50px;
+}
+
+.colorblocks {
+    height: 150px;
+}
+
+#darkBlue {
+    background-color: rgb(35, 120, 217);
+}
+
+#lightBlue {
+    background-color: aqua;
+}
+
+#yellowGreen {
+    background-color: rgb(194, 234, 133);
+}
+
+#lightYellow {
+    background-color: yellow;
+}
+
+#floatingQuestion {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+
+}
